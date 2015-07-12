@@ -31,6 +31,10 @@ header {
 	float: left;
 }
 
+.sm {
+	display: none;
+}
+
 /** menu **/
 nav {
 	float: left;
@@ -130,6 +134,12 @@ aside {
 
 aside h3 {
 	display: none;
+	color: #777;
+	font-size: 18px;
+	padding-bottom: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+
 }
 
 aside li {

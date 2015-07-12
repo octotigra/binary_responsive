@@ -7,17 +7,19 @@
 	<link rel="stylesheet" type="text/css" href="css/grid.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/tablet.css">
+	<link rel="stylesheet" type="text/css" href="css/smartphone.css">
 </head>
 <body>
 
 	<header>
 		<div class="container clearfix">
-			<div class="logo col-3">
+			<div class="logo col-3 col-sm-12">
 				<a href="">
-					<img src="http://fpoimg.com/150x66?text=Kitten Logo" alt="Логотип">
+					<img class="regular" src="http://fpoimg.com/150x66?text=Kitten Logo" alt="Логотип">
+					<img class="sm" src="http://fpoimg.com/120x60?text=Kitten Logo" alt="Логотип">
 				</a>	
 			</div>
-			<nav class="menu col-9">
+			<nav class="menu col-9 col-sm-1">
 				<ul class="clearfix">
 					<li><a href="#">Котики</a></li>
 					<li><a href="#">Другие котики</a></li>
@@ -26,6 +28,7 @@
 					<li><a href="#">Кошки</a></li>
 				</ul>
 			</nav>
+			
 		</div>
 	</header>
 
@@ -34,7 +37,7 @@
 	</section>
 	
 	<div class="container clearfix">
-		<main class="col-9 col-md-12 clearfix">
+		<main class="col-9 col-md-12 col-sm-12 clearfix">
 			<h2>Пушистые милахи</h2>
 			<article>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque varius diam sed lorem maximus, a cursus mi tempor.</p>
@@ -46,7 +49,7 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque varius diam sed lorem maximus, a cursus mi tempor.</p>
 			</article>
 		</main>
-		<aside class="col-3 col-md-12">
+		<aside class="col-3 col-md-12 col-sm-12">
 		<h3>Новости и акции</h3>
 			<ul clearfix>
 				<li><a href="">Милая новость 1</a></li>
