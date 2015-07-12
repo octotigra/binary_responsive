@@ -11,9 +11,11 @@
 
 .container {
 	max-width: 1200px;
-	min-width: 960px;
+	min-width: 990px;
 	margin: 0 auto;
 	position: relative;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 a {
@@ -52,7 +54,7 @@ nav {
 	text-decoration: none;
 	font-size: 18px;
 	font-family: Arial, sans-serif;
-	padding-left: 70px;
+	padding-left: 60px;
 }
 /** menu END **/
 
@@ -124,6 +126,10 @@ aside {
 	float: left;
 	text-align: right;
 	padding-top: 150px;
+}
+
+aside h3 {
+	display: none;
 }
 
 aside li {
